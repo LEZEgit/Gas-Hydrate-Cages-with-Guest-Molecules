@@ -1,4 +1,6 @@
 data_genice
+# Generated/Modified by: (23JE0105@IIT(ISM)) for Schematic Assignment for course PEE201 taught by Professor Chandan Sahu
+
 #
 _cell_length_a                23.083353573540716
 _cell_length_b                23.083353573540716
