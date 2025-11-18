@@ -27,7 +27,7 @@ The project includes:
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/LEZEgit/Gas-Hydrate-Cages-with-Guest-Molecules/
    ```
 2. Navigate into the project directory and open the required scripts or diagrams.
 3. Editable diagrams can be opened in:
