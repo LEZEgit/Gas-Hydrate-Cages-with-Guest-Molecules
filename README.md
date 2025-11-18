@@ -80,15 +80,20 @@ genice2 CS2 CH4 -r 2 2 2 --format cif > sII_CH4_2x2x2.cif
     ```
 
 2.  Navigate into the project directory and open the required scripts or diagrams.
+3.  Open Avogadro software and click on "OPEN" button.
+4.  Select the required .cif file from the cloned directory.
+5.  Click "Open" or "OK".
+6.  The model will be rendered in the app.
+7.  You can now use the app to enable bond preview or modify the view of atoms, change color per atom or anything supported by Avogadro.
 
-3.  Editable diagrams can be opened in:
+8.  Editable diagrams can be opened in:
 
       * **draw.io**
       * **Figma**
       * **Illustrator**
       * or any compatible vector editor.
 
-4.  Scripts can be executed or modified based on your environment setup.
+9.  Scripts can be executed or modified based on your environment setup.
 
 ## Requirements
 
