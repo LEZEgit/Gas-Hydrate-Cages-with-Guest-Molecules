@@ -1,6 +1,5 @@
 data_genice
 #
-#Command line: /home/leze/.pyenv/versions/genice-env/bin/genice2 sIII --format cif
 _cell_length_a                23.083353573540716
 _cell_length_b                23.083353573540716
 _cell_length_c                12.060696981977827

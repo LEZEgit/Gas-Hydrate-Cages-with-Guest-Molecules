@@ -1,6 +1,5 @@
 data_genice
 #
-#Command line: /home/leze/.pyenv/versions/genice-env/bin/genice2 --rep 2 2 2 -g 12=co2 -g 14=co2 CS1 --format cif
 _cell_length_a                24.006977272287195
 _cell_length_b                24.006977272287195
 _cell_length_c                24.006977272287195
