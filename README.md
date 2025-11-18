@@ -1,8 +1,4 @@
-The `README.md` file has been updated to include a new section detailing the usage and commands for `genice2`.
 
-Here is the updated content for your `README.md`:
-
-````markdown
 ## Overview
 
 This repository contains the code and assets developed for the **Schematic Assignment for PEE201 course**, focusing on schematic generation and molecular modeling related to gas hydrate structures and biosurfactant mechanisms.
@@ -113,5 +109,4 @@ The conceptual background and references for hydrate structures and biosurfactan
 
 This project is part of an academic assignment. Use and modify freely unless your instructor has stricter rules.
 
-```
-```
+
