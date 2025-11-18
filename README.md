@@ -1,6 +1,4 @@
 
-# Project README
-
 ## Overview
 
 This repository contains the code and assets developed for the **Petroleum Assignment**, focusing on schematic generation and molecular modeling related to gas hydrate structures and biosurfactant mechanisms.
