@@ -1,4 +1,3 @@
-
 ## Overview
 
 This repository contains the code and assets developed for the **Schematic Assignment for PEE201 course**, focusing on schematic generation and molecular modeling related to gas hydrate structures and biosurfactant mechanisms.
@@ -30,7 +29,7 @@ The `.cif` files for the hydrate structures are generated using the `genice2` co
 | :--- | :--- |
 | Structure I (sI) | CS1 |
 | Structure II (sII) | CS2 |
-| Structure III (sIII) | CS3 |
+| Structure III (sIII) | sIII (or RHO) |
 
 #### 1. Generating Empty Structures (Framework Only)
 
