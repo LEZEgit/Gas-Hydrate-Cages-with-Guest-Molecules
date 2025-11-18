@@ -12,39 +12,15 @@ The project includes:
 * Surfactant and biosurfactant schematic components
 * Utility scripts and files supporting the generation and modification of these schematics
 
-## Contents
-
-* **/assets**
-  Images and reference diagrams used during schematic generation.
-
-* **/scripts**
-  Code files responsible for generating or modifying molecular structures and hydrate cage models.
-
-* **/output**
-  Generated diagrams, updated models, and schematic exports (PNG, SVG, or draw.io compatible formats).
-
-* **/docs**
-  Supporting documentation related to hydrate structures, surfactant behavior, and schematic references.
-
 ## Features
 
 ### Hydrate Structure Modeling
 
 * CH₄ molecules placed in **sI (structure I)** cages
 * CO₂ molecules placed in **sI** cages
-* C₂H₆ molecules placed in **sII (structure II)** cages
-* C₃H₈ molecules placed in **sII** cages
-* Mixed **Methane + Neohexane** molecules placed in **sIII (structure III)** cages
-
-### Biosurfactant Mechanism Schematic
-
-Includes a simplified editable schematic demonstrating:
-
-* Increase in interfacial area
-* Surface tension reduction
-* Mass transfer enhancement
-* Potential micelle formation
-* Hydrate formation tendency at reactor walls
+* C₂H₆ molecules placed in **sII (structure II)** cages (under progress)
+* C₃H₈ molecules placed in **sII** cages (under progress)
+* Mixed **Methane + Neohexane** molecules placed in **sIII (structure III)** cages (under progress)
 
 ## How to Use
 
@@ -66,9 +42,8 @@ Includes a simplified editable schematic demonstrating:
 
 Depending on what you’re generating:
 
+* Avogadro (for rendering the .cif files)
 * Python (if using structure-generation scripts)
-* draw.io / diagrams.net
-* Basic vector-editing tools
 
 ## References
 
@@ -82,5 +57,3 @@ The conceptual background and references for hydrate structures and biosurfactan
 This project is part of an academic assignment. Use and modify freely unless your instructor has stricter rules.
 
 ---
-
-If you want the README formatted in some very specific aesthetic (extra sections, badges, absurd ASCII art that scares away recruiters), tell me.
