@@ -28,13 +28,16 @@ The project includes:
    git clone https://github.com/LEZEgit/Gas-Hydrate-Cages-with-Guest-Molecules/
    ```
 2. Navigate into the project directory and open the required scripts or diagrams.
-3. Editable diagrams can be opened in:
+3. Open Avogadro.
+4. Click on OPEN button and select the .cif file for the structure you want to render.
+5. Press OK. (The structure will be modified).
+6. Editable diagrams can be opened in:
 
    * **draw.io**
    * **Figma**
    * **Illustrator**
    * or any compatible vector editor.
-4. Scripts can be executed or modified based on your environment setup.
+7. Scripts can be executed or modified based on your environment setup.
 
 ## Requirements
 
