@@ -35,12 +35,12 @@ The `.cif` files for the hydrate structures are generated using the `genice2` co
 
 This generates the pure water lattice without any guest molecules.
 
+##### General Syntax:
 ```bash
-# General Syntax:
 genice2 [STRUCTURE_CODE] --format cif > [FILENAME].cif
 ```
+##### Example: Empty sIII structure
 ```bash
-# Example: Empty sIII structure
 genice2 CS3 --format cif > sIII_empty.cif
 ````
 
@@ -48,12 +48,12 @@ genice2 CS3 --format cif > sIII_empty.cif
 
 This command fills all available cages with the specified guest molecule (e.g., $\text{CH}_4$).
 
+##### General Syntax:
 ```bash
-# General Syntax:
 genice2 [STRUCTURE_CODE] [GUEST_MOLECULE] --format cif > [FILENAME].cif
 ```
+##### Example: Methane-filled sI structure
 ```bash
-# Example: Methane-filled sI structure
 genice2 CS1 CH4 --format cif > sI_CH4_filled.cif
 ```
 
@@ -61,12 +61,12 @@ genice2 CS1 CH4 --format cif > sI_CH4_filled.cif
 
 Use the `-r` or `--rep` option to generate a supercell, which is a repeated block of the unit cell along the X, Y, and Z dimensions. This is useful for simulations.
 
+##### General Syntax:
 ```bash
-# General Syntax:
 genice2 [STRUCTURE_CODE] [GUEST_MOLECULE] -r [FACTOR] [FACTOR] [FACTOR] --format cif > [FILENAME].cif
 ```
+##### Example: 2x2x2 Methane-filled sII supercell
 ```bash
-# Example: 2x2x2 Methane-filled sII supercell
 genice2 CS2 CH4 -r 2 2 2 --format cif > sII_CH4_2x2x2.cif
 ```
 
@@ -77,26 +77,26 @@ genice2 CS2 CH4 -r 2 2 2 --format cif > sII_CH4_2x2x2.cif
 ## How to Use
 
 1.  Clone the repository:
-
+    ##### Copy the command below and paste it in your terminal
     ```bash
     git clone [https://github.com/LEZEgit/Gas-Hydrate-Cages-with-Guest-Molecules/](https://github.com/LEZEgit/Gas-Hydrate-Cages-with-Guest-Molecules/)
     ```
 
-2.  Navigate into the project directory and open the required scripts or diagrams.
-3.  Open Avogadro software and click on "OPEN" button.
-4.  Select the required .cif file from the cloned directory.
-5.  Click "Open" or "OK".
-6.  The model will be rendered in the app.
-7.  You can now use the app to enable bond preview or modify the view of atoms, change color per atom or anything supported by Avogadro.
+3.  Navigate into the project directory and open the required scripts or diagrams.
+4.  Open Avogadro software and click on "OPEN" button.
+5.  Select the required .cif file from the cloned directory.
+6.  Click "Open" or "OK".
+7.  The model will be rendered in the app.
+8.  You can now use the app to enable bond preview or modify the view of atoms, change color per atom or anything supported by Avogadro.
 
-8.  Editable diagrams can be opened in:
+9.  Editable diagrams can be opened in:
 
       * **draw.io**
       * **Figma**
       * **Illustrator**
       * or any compatible vector editor.
 
-9.  Scripts can be executed or modified based on your environment setup.
+10.  Scripts can be executed or modified based on your environment setup.
 
 ## Requirements
 
