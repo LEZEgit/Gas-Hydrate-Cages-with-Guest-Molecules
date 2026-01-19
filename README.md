@@ -38,7 +38,8 @@ This generates the pure water lattice without any guest molecules.
 ```bash
 # General Syntax:
 genice2 [STRUCTURE_CODE] --format cif > [FILENAME].cif
-
+```
+```bash
 # Example: Empty sIII structure
 genice2 CS3 --format cif > sIII_empty.cif
 ````
@@ -50,7 +51,8 @@ This command fills all available cages with the specified guest molecule (e.g., 
 ```bash
 # General Syntax:
 genice2 [STRUCTURE_CODE] [GUEST_MOLECULE] --format cif > [FILENAME].cif
-
+```
+```bash
 # Example: Methane-filled sI structure
 genice2 CS1 CH4 --format cif > sI_CH4_filled.cif
 ```
@@ -62,7 +64,8 @@ Use the `-r` or `--rep` option to generate a supercell, which is a repeated bloc
 ```bash
 # General Syntax:
 genice2 [STRUCTURE_CODE] [GUEST_MOLECULE] -r [FACTOR] [FACTOR] [FACTOR] --format cif > [FILENAME].cif
-
+```
+```bash
 # Example: 2x2x2 Methane-filled sII supercell
 genice2 CS2 CH4 -r 2 2 2 --format cif > sII_CH4_2x2x2.cif
 ```
